@@ -1,0 +1,33 @@
+2017-09-11 19:47:08	?	?	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:08	?	?	Saved module info caches
+2017-09-11 19:47:08	guest	http://localhost:8888/bannertool/http404/	Saved module info caches
+2017-09-11 19:47:09	guest	http://localhost:8888/bannertool/http404/	Installed module 'ProcessRecentPages'
+2017-09-11 19:47:09	guest	http://localhost:8888/bannertool/http404/	Saved module info caches
+2017-09-11 19:47:09	guest	http://localhost:8888/bannertool/http404/	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:10	guest	http://localhost:8888/bannertool/http404/	Saved module 'AdminThemeDefault' config data
+2017-09-11 19:47:27	guest	http://localhost:8888/bannertool/	Saved module info caches
+2017-09-11 19:47:27	guest	http://localhost:8888/bannertool/	Installed module 'ProcessLogger'
+2017-09-11 19:47:28	guest	http://localhost:8888/bannertool/	Saved module info caches
+2017-09-11 19:47:28	guest	http://localhost:8888/bannertool/	Installed module 'InputfieldIcon'
+2017-09-11 19:47:28	guest	http://localhost:8888/bannertool/	Saved module info caches
+2017-09-11 19:47:28	guest	http://localhost:8888/bannertool/	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:44	guest	http://localhost:8888/bannertool/login/login/	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:49	?	?	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:50	?	?	Saved module info caches
+2017-09-11 19:47:50	guest	http://localhost:8888/bannertool/login/login/	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:52	remco	http://localhost:8888/bannertool/login/?login=1	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:54	?	?	Saved module info caches
+2017-09-11 19:47:54	?	?	Saved module 'SystemUpdater' config data
+2017-09-11 19:47:54	?	?	Saved module info caches
+2017-09-11 19:47:54	remco	http://localhost:8888/bannertool/login/page/?login=1	Saved module 'SystemUpdater' config data
+2017-09-11 19:48:27	remco	http://localhost:8888/bannertool/login/module/	Saved module 'FieldtypeRepeater' config data
+2017-09-11 19:48:27	remco	http://localhost:8888/bannertool/login/module/	Installed module 'InputfieldRepeater'
+2017-09-11 19:48:27	remco	http://localhost:8888/bannertool/login/module/	Installed module 'FieldtypeRepeater'
+2017-09-11 19:48:28	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
+2017-09-11 19:48:31	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeRepeater	Saved module 'FieldtypeRepeater' config data
+2017-09-11 19:48:36	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeRepeater&collapse_info=1	Saved module 'FieldtypeRepeater' config data
+2017-09-11 19:52:08	remco	http://localhost:8888/bannertool/login/module/	Installed module 'PageFrontEdit'
+2017-09-11 19:52:09	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
+2017-09-11 19:52:29	remco	http://localhost:8888/bannertool/login/module/	Installed module 'ProcessForgotPassword'
+2017-09-11 19:52:30	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
+2017-09-11 19:52:32	remco	http://localhost:8888/bannertool/login/module/edit?name=ProcessForgotPassword	Saved module 'ProcessForgotPassword' config data

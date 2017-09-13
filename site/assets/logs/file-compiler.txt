@@ -1,0 +1,3 @@
+2017-09-11 19:47:28	guest	http://localhost:8888/bannertool/	Compiled file: /site/templates/home.php
+2017-09-12 19:47:57	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Maintenance/Remove target file: /site/assets/cache/FileCompiler/site/templates/basic-page.php
+2017-09-12 19:47:57	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Maintenance/Copy new version of source file to target file: /site/templates/homepage.php => /site/assets/cache/FileCompiler/site/templates/homepage.php

@@ -1,0 +1,1 @@
+2017-09-11 19:47:52	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'

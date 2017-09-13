@@ -1,0 +1,5 @@
+2017-09-11 19:52:29	remco	http://localhost:8888/bannertool/login/module/	Creating table: process_forgot_password
+2017-09-11 20:06:01	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "client_logo" data in 0 row(s) from 0 page(s). [page-by-page]
+2017-09-11 20:06:01	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "client_description" data in 0 row(s) from 0 page(s). [page-by-page]
+2017-09-12 19:23:22	remco	http://localhost:8888/bannertool/login/page/edit/?id=1020&InputfieldFileAjax=1	Renamed /Applications/MAMP/htdocs/bannertool/site/assets/files/1020/style.css => /Applications/MAMP/htdocs/bannertool/site/assets/files/1020/_style.css
+2017-09-12 20:30:52	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "banner_upload" data in 0 row(s) from 0 page(s). [page-by-page]
