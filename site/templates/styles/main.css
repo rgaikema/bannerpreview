@@ -47,10 +47,32 @@ table {
 	border-spacing: 0;
 }
 
+button {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', Arial, Tahoma, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  color: #333333;
+}
+button:focus {
+  outline: 0;
+}
+
 /* Storm Style */
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #1a3037;
 }
 
 a {
@@ -60,7 +82,7 @@ a {
 a,
 a:active,
 a:visited {
-	color: #a5d500;
+	color: #68a227;
 	text-decoration: none;
 }
 
@@ -83,6 +105,16 @@ h1 {
 
 h2 {
 	font-size: 18px;
+}
+
+
+.breadcrumbs {
+	padding-bottom: 20px;
+}
+
+.breadcrumbs a {
+	font-weight: normal;
+	text-transform: lowercase;
 }
 
 .header{
@@ -150,8 +182,8 @@ iframe {
 	background: #ebebeb;
 	border-radius: 220px;
 	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	padding: 20px;
+	border: 1px solid #68a227;
+	padding: 15px 20px;
 }
 
 .comment.storm {
@@ -159,7 +191,68 @@ iframe {
 }
 
 
+.footer {
+	float: left;
+	width: 100%;
+	background: #12638c;
+}
+
+.footer p {
+	color: #fff;
+	text-align: center;
+	height: 60px;
+	padding-top: 20px;
+}
+
+
 /* Creatives */
+
+.test {
+	width: 80px;
+	height: 40px;
+	background: red;
+}
+
+.iframe-holder {
+	padding-bottom: 20px;
+}
+
+.button-holder {
+	width: 336px;
+	height: 60px;
+	position: relative;
+}
+
+button.replay {
+	cursor: pointer;
+	position: absolute;
+	font-size: 16px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -85%);
+	-ms-transform: translate(-50%, -85%);
+	z-index: 9;
+	background: #a5d500;
+	padding: 5px 10px;
+	border-radius: 2px;
+	color: #fff;
+}
+
+button.replay span {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+button.replay .fa {
+	padding-left: 5px;
+}
+
+button.replay:hover{
+	background: #addf00;
+}
 
 .rectangle {
 	width: 336px;

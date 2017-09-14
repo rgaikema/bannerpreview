@@ -13,7 +13,8 @@
 
 		$rectangle = $child->banner_336x280->url;
 		if (isset($rectangle)) {
-			echo '<iframe class="rectangle" src="'. $rectangle . '"></iframe><br><br>';
+			echo '<div class="iframe-holder"><iframe id="iframe-1" class="rectangle" src="'. $rectangle . '"></iframe>';
+			echo '<div class="button-holder"><button type="button" id="button-1" class="replay">replay<i class="fa fa-play-circle"></i></button></div></div>';
 		}
 
 		$smallRectangle = $child->banner_300x250->url;
@@ -23,6 +24,17 @@
 	}
 
 	?>
+
+		<!-- Reload banners -->
+		<script>
+			var iframe1 = $('#iframe-1');
+
+			$('#button-1').click(function() {
+				document.getElementById('iframe-1').src = document.getElementById('iframe-1').src;
+			});
+
+		</script>
+
 
 	</div> <!-- end wrapper -->
 

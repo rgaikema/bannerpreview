@@ -33,3 +33,16 @@
 2017-09-14 09:13:09	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
 2017-09-14 09:39:20	boris	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
 2017-09-14 09:42:34	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
+2017-09-14 11:20:23	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:29:48	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:32:24	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:33:30	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:36:01	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:37:52	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:46:04	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:47:28	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2017-09-14 11:52:47	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
+2017-09-14 11:55:07	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
+2017-09-14 11:56:25	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
+2017-09-14 11:57:03	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
+2017-09-14 11:59:42	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Compiled file: /site/templates/iab-set-page.php
