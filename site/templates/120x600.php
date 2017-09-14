@@ -11,9 +11,9 @@
 
 		<?php 
 
-			echo '<iframe class="120x600" src="'. $page->banner_upload->url . '"></iframe><br><br>';
+			echo '<iframe class="small-skyscraper" src="'. $page->banner_120x600->url . '"></iframe><br><br>';
 
-			foreach ($page->banner_upload as $file) {
+			foreach ($page->banner_120x600 as $file) {
 				echo "<a href='$file->url'>$file->name</a><br>";
 			}
 		?>

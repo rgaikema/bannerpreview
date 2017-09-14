@@ -6,24 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
 	</head>
 	<body>
-		<div class="breadcrumbs">
-		<?php
-			foreach($page->parents() as $parent) {
-			    echo "<a href='{$parent->url}'>{$parent->title}</a> ";
-			} 
-		?>
-		</div>
 		<h1><?php echo $page->title; ?></h1>
 		<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
 
 		<?php 
 
-			$campaigns = $page->children("sort=title");
+			echo '<iframe class="small-skyscraper" src="'. $page->banner_120x600->url . '"></iframe><br><br>';
 
-			foreach ($campaigns as $campaign) {
-				echo "<li><a href='$campaign->url'>$campaign->title</a></li>";
+			foreach ($page->banner_120x600 as $file) {
+				echo "<a href='$file->url'>$file->name</a><br>";
 			}
-
 		?>
 	
 	</body>

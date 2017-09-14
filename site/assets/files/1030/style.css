@@ -1,0 +1,201 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transform: perspective(1px) scale(1.0);
+  transform: perspective(1px) scale(1.0);
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.border {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #cccccc;
+  width: 298px;
+  height: 248px;
+}
+
+#bg-exit {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+:focus {
+  outline:none;
+}
+::-moz-focus-inner {
+  border:0;
+}
+
+.asset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+@font-face {
+    font-family: 'euclid_flex_rtl';
+    src: url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-bold-webfont.woff2') format('woff2'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-bold-webfont.woff') format('woff'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-bold-webfont.ttf') format('truetype'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-bold-webfont.svg#euclid_flex_rtlbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'euclid_flex_rtl';
+    src: url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-medium-webfont.woff2') format('woff2'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-medium-webfont.woff') format('woff'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-medium-webfont.ttf') format('truetype'),
+         url('https://s0.2mdn.net/creatives/assets/1868159/euclidflexrtl-medium-webfont.svg#euclid_flex_rtlmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.sky {
+  background-image: url(sky.jpg);
+}
+
+.grass {
+  background-image: url(grass.png);
+  width: 336px;
+  height: 369px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.oldenheim-logo {
+  background-image: url(logo.png);
+  opacity: 0;
+}
+
+.twelve {
+  background-image: url(twelve.png);
+  opacity: 0;
+}
+
+.overlay {
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.bottombar {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  background-image: url(logo.svg);
+  width: 101px;
+  height: 14px;
+  position: absolute;
+  left: -26px;
+  display: block;
+  text-indent: -9999px;
+  background-size: contain;
+  top: -26px;
+}
+
+.noortje {
+  background-image: url(noortje.png);
+}
+
+.nasrdin {
+  background-image: url(nasrdin.png);
+}
+
+.tree {
+  background-image: url(tree.png);
+}
+
+.sticker {
+  background-color: #faea27;
+  line-height: 24px;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  border-radius: 100%;
+  top: 10px;
+  left: 20px;
+}
+
+.sticker-txt {
+  font-family: 'euclid_flex_rtl';
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  word-break: break-word;
+}
+
+.sticker-txt.small {
+  font-family: 'euclid_flex_rtl';
+  font-size: 13px;
+  margin-top: 23px;
+  margin-bottom: -5px;
+  font-weight: normal;
+}
+
+.txt-wrapper {
+  position: absolute;
+  left: 20px;
+  top: 45%;
+  width: 90%;
+}
+
+.content-txt {
+  font-family: 'euclid_flex_rtl';
+  position: absolute;
+  font-size: 15px;
+  font-weight: normal;
+  right: 17px;
+  top: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: 'euclid_flex_rtl';
+  font-size: 13px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #52ae32;
+  border-radius: 20px;
+  padding: 9px 22px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
