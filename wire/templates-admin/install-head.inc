@@ -23,7 +23,7 @@ if(!isset($bgTitle)) $bgTitle = "Installer";
 <p id='bgtitle'><?php echo htmlentities($bgTitle, ENT_QUOTES, "UTF-8"); ?></p>
 <div id="masthead" class="masthead">
 	<div class="container">
-		<a target='_blank' id='logo' href='http://processwire.com'><img src="wire/templates-admin/styles/images/logo.gif" alt="ProcessWire" /></a>
+		<a target='_blank' id='logo' href='http://processwire.com'><img src="<?php echo $config->urls->templates?>images/logo-storm.svg" alt="ProcessWire" /></a>
 		<h1 id='title'><?php echo htmlentities($title, ENT_QUOTES, "UTF-8"); ?></h1>
 	</div>
 </div>

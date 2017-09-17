@@ -39,25 +39,52 @@
 	</div> <!-- end wrapper -->
 
 	<aside class="sidebar">
-		<edit field="comments">...</edit>
 		
 		<?php 
-			$reactions = $page->comments;
 
-			echo '<div class="comments">';
+			foreach($page->comments as $comment) {
+			    if($comment->status < 1) continue; // skip unapproved or spam comments
+			    $cite = htmlentities($comment->cite); // make sure output is entity encoded
+			    $text = htmlentities($comment->text);
+			    $date = date('m/d/y g:ia', $comment->created); // format the date
 
-			foreach ($reactions as $reaction) {
+			    //Check stormvogel names
+			    $stormvogels = $users->find("email$=stormdigital.nl");
+			    $stormvogelNames = [];
 
-				if ($reaction->textarea_klant) {
-					echo '<div class="comment">' . $reaction->textarea_klant . '</div>';
+				foreach ($stormvogels as $stormvogel) {
+
+					$stormvogelName = $stormvogel->name;
+					array_push($stormvogelNames, $stormvogelName);
+
 				}
 
-				if ($reaction->textarea_storm) {
-					echo '<div class="comment storm">' . $reaction->textarea_storm . '</div>';
+				//Output comments
+			    echo '<div class="CommentHeader">' . $date . '</div>';
+
+			    //Check if comment is places by Stormvogel
+				if (in_array($cite, $stormvogelNames)) {
+					echo '<div class="CommentText stormvogel"><p>' . $text . '</p></div>';
+				} else {
+					echo '<div class="CommentText"><p>' . $text . '</p></div>';
 				}
+
+			    echo '<div class="CommentFooter">' . $cite . '</div>';
 			}
 
-			echo '</div>'
+			//Commentform
+			echo $page->comments->renderForm(array(
+			    'headline' => '<h2>Laat een reactie achter:</h2>',
+			    'successMessage' => "<p class='success'>Bedankt, je reactie is geplaatst.</p>",
+    			'errorMessage' => "<p class='error'>Helaas, je reactie kon niet worden geplaatst. Check of je alle velden hebt ingevuld en probeer het nog een keer.</p>",
+    			'labels' => array(
+			        'cite' => 'Naam',
+			        'email' => 'Email',
+			        'text' => 'Reactie',
+			        'submit' => 'Plaats',
+			    ),
+			));
+
 		?>
 
 	</aside>
