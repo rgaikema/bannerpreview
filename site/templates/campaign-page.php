@@ -4,8 +4,12 @@
 
 	$sets = $page->children("sort=title");
 
-	foreach ($sets as $set) {
-		echo "<li><a href='$set->url'>$set->title</a></li>";
+	if ($sets) {
+		echo '<ul class="sets-list">';
+		foreach ($sets as $set) {
+			echo '<li class="sets-list-item"><a href="' . $set->url . '"> ' . $set->title . '</a></li>';
+		}
+		echo '</ul>';
 	}
 
 	include("./footer.inc"); 

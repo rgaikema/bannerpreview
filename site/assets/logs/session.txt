@@ -36,3 +36,4 @@
 2017-09-17 14:52:23	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
 2017-09-17 15:13:31	klant-a	http://localhost:8888/bannertool/login/login/?id=100	Successful login for 'klant-a'
 2017-09-17 15:21:36	klant-b	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-b'
+2017-09-17 19:09:00	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'

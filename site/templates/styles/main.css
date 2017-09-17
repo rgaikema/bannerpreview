@@ -68,6 +68,12 @@ button:focus {
   outline: 0;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Storm Style */
 
 body {
@@ -158,6 +164,7 @@ h2 {
 
 .page {
 	padding-top: 100px;
+	min-height: calc(100vh - 220px);
 }
 
 
@@ -180,30 +187,17 @@ iframe {
 
 
 .footer {
-	float: left;
 	width: 100%;
-	background: #12638c;
+	background: #d0e4ef;
 }
 
 .footer p {
-	color: #fff;
+	color: #12638c;
 	text-align: center;
 	height: 60px;
 	padding-top: 20px;
 }
 
-
-/*.comment {
-	background: #ebebeb;
-	border-radius: 220px;
-	margin-bottom: 10px;
-	border: 1px solid #68a227;
-	padding: 15px 20px;
-}
-
-.comment.storm {
-	background: #fff;
-}*/
 
 
 /*Comments*/
@@ -369,4 +363,13 @@ button.replay:hover{
 .small-skyscraper{
 	width: 120px;
 	height: 600px;
+}
+
+
+/*Homepage*/
+
+.clients-list-item,
+.campaigns-list-item,
+.sets-list-item {
+	margin-bottom: 10px;
 }

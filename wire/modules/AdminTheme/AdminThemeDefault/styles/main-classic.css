@@ -1637,7 +1637,8 @@ body .ui-tooltip {
     padding: 0.6em 1.5em
 }
 .ui-dialog .ui-dialog-buttonpane {
-    background: #E4EBEE;
+    background: #d0e4ef;
+    /*background: #E4EBEE;*/
     border: none;
     margin-top: -7px;
     padding: 1px 8px 1px 8px
@@ -1737,7 +1738,7 @@ body.hidpi-device .ui-slider .ui-slider-handle {
     background-size: 34px 21px
 }
 .ui-menu {
-    background: #68a227;
+    background: #d0e4ef;
     border: none;
     padding: 0
 }
@@ -1771,8 +1772,8 @@ body.hidpi-device .ui-slider .ui-slider-handle {
     margin-left: -2px
 }
 .ui-menu .ui-menu-item a.on {
-    background: #68a227;
-    color: #A7E5F9
+    background: #d0e4ef;
+    color: #A7E5F9;
 }
 .ui-menu .ui-menu-item a:hover,
 .ui-menu .ui-menu-item a.ui-state-focus,
@@ -2615,7 +2616,7 @@ body.collapse-topnav #logo {
 }
 #masthead #topnav>li>a {
     background: none;
-    color: #68a227;
+    color: #12638c;
     display: block;
     float: left;
     margin: 0 0 0 1px;
@@ -2627,14 +2628,14 @@ body.collapse-topnav #logo {
 }
 #masthead #topnav>li>a.hover,
 #masthead #topnav>li>a:hover {
-    background: #68a227;
-    color: #FFF;
+    background: #d0e4ef;
+    color: #12638c;
     text-decoration: none
 }
 #masthead #topnav>li>a.on,
 #masthead #topnav>li>a.on:hover {
-    color: #fff;
-    background: #68a227;
+    color: #12638c;
+    background: #d0e4ef;
     text-decoration: none
 }
 #masthead #topnav>li.collapse-topnav-menu {
@@ -2725,7 +2726,6 @@ body.collapse-topnav #masthead #topnav>li.collapse-topnav-menu>a>i {
     padding-top: 1em;
     padding-bottom: 1em;
     color: rgba(219, 17, 116, 0.3);
-    background: #eaf0f2;
     border-bottom: 1px solid #eaf0f2
 }
 #breadcrumbs ul li {
@@ -2971,7 +2971,8 @@ body.collapse-wiretabs #breadcrumbs {
     margin-right: 0.25em
 }
 .pw-content .PageList .PageListItem {
-    border-bottom: 1px dotted #e4ebee;
+   /* border-bottom: 1px dotted #e4ebee;*/
+    border-bottom: 1px dotted #d0e4ef;
     padding-top: 0.35em;
     padding-bottom: 0.35em;
     line-height: 1.3em
@@ -3123,7 +3124,8 @@ body.collapse-wiretabs #breadcrumbs {
 .pw-content .PageListPagination a,
 .pw-content .AdminDataTable .PageListPagination a,
 .pw-content .MarkupPagerNav a {
-    background: #E4EBEE;
+    /*background: #E4EBEE;*/
+    background: #d0e4ef;
     color: #222;
     font-weight: bold;
     -webkit-border-radius: 2px;
@@ -3160,7 +3162,8 @@ body.collapse-wiretabs #breadcrumbs {
     box-sizing: border-box
 }
 body {
-    background: #E4EBEE;
+    background: #d0e4ef;
+/*    background: #E4EBEE;*/
     font-size: 100%;
     color: #222
 }

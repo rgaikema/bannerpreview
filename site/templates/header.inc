@@ -32,7 +32,7 @@
 			</div>
 		</header>
 
-		<section class="container page">
+		<section class="container page clearfix">
 			<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
 			<div class="breadcrumbs">
 				<?php
