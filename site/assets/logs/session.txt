@@ -1,1 +1,2 @@
 2017-09-11 19:47:52	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2017-09-17 11:33:50	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
