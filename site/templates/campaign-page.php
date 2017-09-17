@@ -1,32 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title><?php echo $page->title; ?></title>
-		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
-	</head>
-	<body>
+<?php 
 
-		<div class="breadcrumbs">
-		<?php
-			foreach($page->parents() as $parent) {
-			    echo "<a href='{$parent->url}'>{$parent->title}</a> ";
-			} 
-		?>
-		</div>
+	include("./header.inc"); 
 
-		<h1><?php echo $page->title; ?></h1>
-		<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
+	$sets = $page->children("sort=title");
 
-		<?php 
+	foreach ($sets as $set) {
+		echo "<li><a href='$set->url'>$set->title</a></li>";
+	}
 
-			$sets = $page->children("sort=title");
+	include("./footer.inc"); 
 
-			foreach ($sets as $set) {
-				echo "<li><a href='$set->url'>$set->title</a></li>";
-			}
-
-		?>
-	
-	</body>
-</html>
+?>

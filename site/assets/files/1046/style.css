@@ -1,0 +1,142 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.container {
+  position: relative;
+  width: 120px;
+  height: 600px;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  }
+
+.background_image {
+  position: absolute;
+  bottom: 0;
+  background-image: url(bg.jpg);
+  width: inherit;
+  height: inherit;
+    }
+
+.green_rect1 {
+  position: absolute;
+  top: 10px;
+  width: 103px;
+  height: 30px;
+  background-color: #006a51;
+  left: 8px;
+  opacity: 0;
+    }
+
+.green_rect2 {
+  position: absolute;
+  top: 36px;
+  width: 87px;
+  height: 40px;
+  background-color: #006a51;
+  left: 8px;
+  opacity: 0;
+    }
+
+.green_rect3 {
+  position: absolute;
+  top: 64px;
+  width: 57px;
+  height: 27px;
+  background-color: #006a51;
+  left: 8px;
+  opacity: 0;
+}
+
+.titel {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  width: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.button {
+  position: absolute;
+  bottom: 65px;
+  left: 10px;
+  background-color: #ef8302;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  width: 98px;
+  height: 47px;
+  opacity: 0;
+}
+
+.btn_text {
+  position: absolute;
+  left: 11px;
+  top: 3px;
+  font-weight: 700;
+  font-size:0.9em;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  background-image: url(logo.png);
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+}
+
+.car {
+  max-height: 600px;
+}
+
+.nav {
+  width: 18px;
+  height: 27px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.nav-wrapper {
+  height: 100px;
+  width: 24px;
+  top: 250px;
+  left: 0;
+  background: transparent;
+  position: absolute;
+  z-index: 99999999;
+}
+
+.nav-wrapper.right {
+  right: 0;
+  left: 96px;
+}
+
+.nav-wrapper.right .nav {
+  right: 3px;
+  position: absolute;
+}
+
+.nav-wrapper.left .nav {
+  left: 3px;
+  position: absolute;
+}

@@ -1,30 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title><?php echo $page->title; ?></title>
-		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
-	</head>
-	<body>
-		<div class="breadcrumbs">
-		<?php
-			foreach($page->parents() as $parent) {
-			    echo "<a href='{$parent->url}'>{$parent->title}</a> ";
-			} 
-		?>
-		</div>
-		<h1><?php echo $page->title; ?></h1>
-		<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
+<?php 
+	
+	include("./header.inc"); 
 
+	$children = $page->children;
+
+	foreach ($children as $child) {
+
+		$smallSkyscraper = $child->banner_120x600->url;
+		if (isset($smallSkyscraper)) {
+			echo '<iframe class="small-skyscraper" src="'. $smallSkyscraper . '"></iframe><br><br>';
+		}
+
+		$rectangle = $child->banner_336x280->url;
+		if (isset($rectangle)) {
+			echo '<div class="iframe-holder"><iframe id="iframe-1" class="rectangle" src="'. $rectangle . '"></iframe>';
+			echo '<div class="button-holder"><button type="button" id="button-1" class="replay">replay<i class="fa fa-play-circle"></i></button></div></div>';
+		}
+
+		$smallRectangle = $child->banner_300x250->url;
+		if (isset($smallRectangle)) {
+			echo '<iframe class="small-rectangle" src="'. $smallRectangle . '"></iframe><br><br>';
+		}
+	}
+
+	?>
+
+		<!-- Reload banners -->
+		<script>
+			var iframe1 = $('#iframe-1');
+
+			$('#button-1').click(function() {
+				document.getElementById('iframe-1').src = document.getElementById('iframe-1').src;
+			});
+
+		</script>
+
+
+	</div> <!-- end wrapper -->
+
+	<aside class="sidebar">
+		<edit field="comments">...</edit>
+		
 		<?php 
+			$reactions = $page->comments;
 
-			$formats = $page->children("sort=title");
+			echo '<div class="comments">';
 
-			foreach ($formats as $format) {
-				echo "<li><a href='$format->url'>$format->title</a></li>";
+			foreach ($reactions as $reaction) {
+
+				if ($reaction->textarea_klant) {
+					echo '<div class="comment">' . $reaction->textarea_klant . '</div>';
+				}
+
+				if ($reaction->textarea_storm) {
+					echo '<div class="comment storm">' . $reaction->textarea_storm . '</div>';
+				}
 			}
 
+			echo '</div>'
 		?>
-	
-	</body>
-</html>
+
+	</aside>
+
+	<?php
+		include("./footer.inc"); 
+
+?>

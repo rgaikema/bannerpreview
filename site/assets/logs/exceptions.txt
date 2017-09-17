@@ -1,0 +1,2 @@
+2017-09-13 13:10:45	remco	http://localhost:8888/bannertool/	Unknown Selector operator: '' -- was your selector value properly escaped?  (in /wire/core/Selectors.php line 396)
+2017-09-13 15:41:11	remco	http://localhost:8888/bannertool/login/page/add/?parent_id=27	You don't have access to the template required to add pages here (in /wire/modules/Process/ProcessPageAdd/ProcessPageAdd.module line 362)

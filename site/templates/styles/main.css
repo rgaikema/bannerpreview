@@ -1,1 +1,270 @@
-/* blank */ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', Arial, Tahoma, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  color: #333333;
+}
+button:focus {
+  outline: 0;
+}
+
+/* Storm Style */
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #1a3037;
+}
+
+a {
+	font-weight: bold;
+}
+
+a,
+a:active,
+a:visited {
+	color: #68a227;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #addf00;
+	text-decoration: none;
+}
+
+
+h1,h2,h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 22px;
+    text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+
+.breadcrumbs {
+	padding-bottom: 20px;
+}
+
+.breadcrumbs a {
+	font-weight: normal;
+	text-transform: lowercase;
+}
+
+.header{
+    text-align: left;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    z-index: 10;
+    top: 0;
+}
+
+.header .container {
+    margin: 0 auto;
+    height: 60px;
+}
+
+.logo {
+    max-width: 139px;
+}
+.page-title {
+    line-height: 56px;
+}
+
+.logo, .logo img {
+    max-height: 56px;
+}
+
+.container {
+	margin: 20px auto;
+	max-width: 924px;
+}
+
+.header .container {
+    margin: 0 auto;
+    height: 60px;
+}
+
+.page {
+	padding-top: 100px;
+}
+
+
+iframe {
+	border: 1px solid #ebebeb;
+}
+
+.wrapper {
+	width: calc(70% - 20px);
+	float: left;
+	height: 100%;
+	padding-right: 20px;
+}
+
+.sidebar {
+	width: 30%;
+	float: right;
+	height: 100%;
+}
+
+.comment {
+	background: #ebebeb;
+	border-radius: 220px;
+	margin-bottom: 10px;
+	border: 1px solid #68a227;
+	padding: 15px 20px;
+}
+
+.comment.storm {
+	background: #fff;
+}
+
+
+.footer {
+	float: left;
+	width: 100%;
+	background: #12638c;
+}
+
+.footer p {
+	color: #fff;
+	text-align: center;
+	height: 60px;
+	padding-top: 20px;
+}
+
+
+/* Creatives */
+
+.test {
+	width: 80px;
+	height: 40px;
+	background: red;
+}
+
+.iframe-holder {
+	padding-bottom: 20px;
+}
+
+.button-holder {
+	width: 336px;
+	height: 60px;
+	position: relative;
+}
+
+button.replay {
+	cursor: pointer;
+	position: absolute;
+	font-size: 16px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -85%);
+	-ms-transform: translate(-50%, -85%);
+	z-index: 9;
+	background: #a5d500;
+	padding: 5px 10px;
+	border-radius: 2px;
+	color: #fff;
+}
+
+button.replay span {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+button.replay .fa {
+	padding-left: 5px;
+}
+
+button.replay:hover{
+	background: #addf00;
+}
+
+.rectangle {
+	width: 336px;
+	height: 280px;
+}
+
+.small-rectangle {
+	width: 300px;
+	height: 250px;
+}
+
+.small-skyscraper{
+	width: 120px;
+	height: 600px;
+}
