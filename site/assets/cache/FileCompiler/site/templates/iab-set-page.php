@@ -24,6 +24,8 @@
 	}
 
 	?>
+
+		<!-- Reload banners -->
 		<script>
 			var iframe1 = $('#iframe-1');
 
@@ -32,6 +34,8 @@
 			});
 
 		</script>
+
+
 	</div> <!-- end wrapper -->
 
 	<aside class="sidebar">
