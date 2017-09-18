@@ -4,8 +4,10 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title><?php echo $page->title; ?></title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+		<!-- <link rel='stylesheet' type='text/css' href='<?=$config->urls->FieldtypeComments?>comments.css' /> -->
 		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type='text/javascript' src='<?=$config->urls->FieldtypeComments?>comments.min.js'></script>
 		<script type="text/javascript">
 		  WebFontConfig = {
 		    google: { families: [  'Titillium+Web:400,700:latin', 'Open+Sans:400,600:latin' ] }
@@ -30,7 +32,7 @@
 			</div>
 		</header>
 
-		<section class="container page">
+		<section class="container page clearfix">
 			<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
 			<div class="breadcrumbs">
 				<?php

@@ -13,3 +13,12 @@
 2017-09-13 15:30:29	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "client_logo" data in 0 row(s) from 0 page(s). [page-by-page]
 2017-09-13 15:30:29	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "client_description" data in 0 row(s) from 0 page(s). [page-by-page]
 2017-09-14 09:41:23	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "textarea" data in 0 row(s) from 0 page(s). [page-by-page]
+2017-09-17 11:50:57	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "comments" data in 2 row(s) from 2 page(s). [page-by-page]
+2017-09-17 12:09:42	remco	http://localhost:8888/bannertool/login/page/edit/?id=1019	Updating schema version of 'comments' from 0 to 6
+2017-09-17 12:10:19	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Approved comment 0 - New comment approved / moderation is off
+2017-09-17 12:14:47	klant-a	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Approved comment 0 - New comment approved / moderation is off
+2017-09-17 12:14:48	klant-a	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Sent comment notification email to rgaikema@gmail.com
+2017-09-17 14:32:51	klant-a	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Approved comment 0 - New comment approved / moderation is off
+2017-09-17 14:33:30	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Approved comment 0 - New comment approved / moderation is off
+2017-09-17 14:37:56	boris	http://localhost:8888/bannertool/klant-b/campagne-b/do-fase/	Approved comment 0 - New comment approved / moderation is off
+2017-09-17 15:22:37	klant-b	http://localhost:8888/bannertool/klant-b/campagne-b/do-fase/	Approved comment 0 - New comment approved / moderation is off

@@ -1,0 +1,8 @@
+#MacOS
+*.DS_Store
+
+#Cache files
+site/assets/cache/*
+
+#Session files
+site/assets/sessions/*

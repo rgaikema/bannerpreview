@@ -77,7 +77,7 @@ $extras = $adminTheme->getExtraMarkup();
 		<div class="pw-container container">
 
 			<a id='logo' href='<?php echo $config->urls->admin?>'>
-                <img width='144' src="<?php echo $config->urls->adminTemplates?>styles/images/logo.png" alt="ProcessWire" />
+                <img height='25' src="<?php echo $config->urls->templates?>images/logo-storm.svg" alt="HOme" />
 			</a>
 
 			<?php 
@@ -121,26 +121,7 @@ $extras = $adminTheme->getExtraMarkup();
 
 	<div id="footer" class="pw-footer footer">
 		<div class="pw-container container">
-			<p>
-			<?php if($user->isLoggedin()): ?>
-			<span id='userinfo'>
-				<i class='fa fa-user'></i> 
-				<?php 
-				if($user->hasPermission('profile-edit')): ?> 
-				<i class='fa fa-angle-right'></i> <a class='action' href='<?php echo $config->urls->admin; ?>profile/'><?php echo $user->name; ?></a> <i class='fa fa-angle-right'></i>
-				<?php endif; ?>
-				<a class='action' href='<?php echo $config->urls->admin; ?>login/logout/'><?php echo $helpers->_('Logout'); ?></a>
-			</span>
-			ProcessWire <?php echo $config->versionName . ' <!--v' . $config->systemVersion; ?>--> &copy; <?php echo date("Y"); ?>
-			<?php endif; ?>
-			</p>
-
-			<?php 
-			echo $extras['footer'];
-			if($config->debug && $user->isSuperuser()) {
-				include($config->paths->root . '/wire/templates-admin/debug.inc');
-			}
-			?>
+			
 		</div>
 	</div><!--/#footer-->
 

@@ -68,6 +68,12 @@ button:focus {
   outline: 0;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Storm Style */
 
 body {
@@ -158,6 +164,7 @@ h2 {
 
 .page {
 	padding-top: 100px;
+	min-height: calc(100vh - 220px);
 }
 
 
@@ -178,30 +185,119 @@ iframe {
 	height: 100%;
 }
 
-.comment {
-	background: #ebebeb;
-	border-radius: 220px;
+
+.footer {
+	width: 100%;
+	background: #d0e4ef;
+}
+
+.footer p {
+	color: #12638c;
+	text-align: center;
+	height: 60px;
+	padding-top: 20px;
+}
+
+
+
+/*Comments*/
+
+.sidebar h2 {
+	font-weight: 600;
+}
+
+
+.CommentText {
+    position: relative;
+    background: #68a227;
+    color: #fff;
+	border-radius: 40px;
 	margin-bottom: 10px;
 	border: 1px solid #68a227;
 	padding: 15px 20px;
 }
 
-.comment.storm {
-	background: #fff;
+.CommentText.stormvogel {
+	background: #ebebeb;
+	color: inherit;
+	border-color: #ebebeb;
 }
 
 
-.footer {
-	float: left;
-	width: 100%;
-	background: #12638c;
+.CommentFooter,
+.CommentHeader{
+	text-align: right;
+    margin: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #a5d500;
+}
+.CommentHeader {
+	text-align: left;
+	margin-bottom: 10px;
 }
 
-.footer p {
+#CommentForm {
+	font-size: 16px;
+}
+
+#CommentForm .error {
+	background: #a30000;
 	color: #fff;
-	text-align: center;
-	height: 60px;
-	padding-top: 20px;
+	padding: 0.25em 0.5em;
+}
+#CommentForm .success {
+	font-weight: normal;
+	color: #68a227;
+	margin-bottom: 10px;
+}
+.CommentForm_cite,
+.CommentForm_email,
+.CommentForm_text {
+	margin-bottom: 10px;
+}
+
+.CommentForm_cite label,
+.CommentForm_email label,
+.CommentForm_text label {
+	display: none;
+}
+
+.CommentForm_cite input,
+.CommentForm_email input {
+	font-size: 16px;
+	margin-top: 5px;
+   	width: 100%;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #68a227;
+}
+.CommentForm_text {
+	clear: both;
+}
+.CommentForm_text textarea {
+	font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #68a227;
+}
+
+#CommentForm_submit {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #68a227;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#CommentForm_submit:hover {
+	background: #addf00;
 }
 
 
@@ -267,4 +363,13 @@ button.replay:hover{
 .small-skyscraper{
 	width: 120px;
 	height: 600px;
+}
+
+
+/*Homepage*/
+
+.clients-list-item,
+.campaigns-list-item,
+.sets-list-item {
+	margin-bottom: 10px;
 }

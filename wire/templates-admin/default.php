@@ -101,7 +101,7 @@ if(!$browserTitle) $browserTitle = __(strip_tags($page->get('title|name')), __FI
 	<p id='bgtitle'><?php echo __($page->parent->title, __FILE__); ?></p>
 	<div id="masthead" class="masthead">
 		<div class="container">
-			<a id='logo' href='<?php echo $config->urls->admin?>'><img src="<?php echo $config->urls->adminTemplates?>styles/images/logo.gif" alt="ProcessWire" /></a>
+			<a id='logo' href='<?php echo $config->urls->admin?>'><img src="<?php echo $config->urls->templates?>images/logo-storm.svg" alt="ProcessWire" /></a>
 
 			<ul id='topnav' class='nav'><?php include($config->paths->adminTemplates . "topnav.inc"); ?>
 
