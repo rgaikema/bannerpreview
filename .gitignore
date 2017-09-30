@@ -6,3 +6,6 @@ site/assets/cache/*
 
 #Session files
 site/assets/sessions/*
+
+#Session files
+site/assets/logs/*
