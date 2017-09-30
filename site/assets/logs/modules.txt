@@ -44,3 +44,7 @@
 2017-09-17 11:52:30	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
 2017-09-17 11:52:34	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Saved module 'FieldtypeComments' config data
 2017-09-17 11:52:38	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments&collapse_info=1	Saved module 'FieldtypeComments' config data
+2017-09-30 18:17:51	remco	http://localhost:8888/bannertool/login/module/	Installed module 'FieldtypeOptions'
+2017-09-30 18:17:51	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
+2017-09-30 18:17:55	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeOptions	Saved module 'FieldtypeOptions' config data
+2017-09-30 18:17:59	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeOptions&collapse_info=1	Saved module 'FieldtypeOptions' config data

@@ -37,3 +37,7 @@
 2017-09-17 15:13:31	klant-a	http://localhost:8888/bannertool/login/login/?id=100	Successful login for 'klant-a'
 2017-09-17 15:21:36	klant-b	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-b'
 2017-09-17 19:09:00	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
+2017-09-17 19:40:55	klant-a	http://localhost:8888/bannertool/login/login/logout/	Logout for 'klant-a'
+2017-09-30 17:32:15	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2017-09-30 17:32:15	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2017-09-30 17:53:10	remco	http://localhost:8888/bannertool/login/login/?id=101	Successful login for 'remco'

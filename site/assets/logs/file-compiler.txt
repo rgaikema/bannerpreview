@@ -106,3 +106,15 @@
 2017-09-17 19:30:39	remco	http://localhost:8888/bannertool/klant-a/	Compiled file: /site/templates/client-klant-a-page.php
 2017-09-17 19:31:25	remco	http://localhost:8888/bannertool/klant-a/	Compiled file: /site/templates/client-klant-a-page.php
 2017-09-17 19:35:01	remco	http://localhost:8888/bannertool/klant-a/campagne-a/	Compiled file: /site/templates/campaign-page.php
+2017-09-30 17:32:15	guest	http://localhost:8888/bannertool/login/login/	Maintenance/Copy new version of source file to target file: /site/templates/client-klant-b-page.php => /site/assets/cache/FileCompiler/site/templates/client-klant-b-page.php
+2017-09-30 17:54:14	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/client-klant-b-page.php
+2017-09-30 17:56:48	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 17:57:03	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 17:58:51	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 17:59:05	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:00:36	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:00:58	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:01:25	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:02:02	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:03:43	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
+2017-09-30 18:10:13	remco	http://localhost:8888/bannertool/canvas/	Compiled file: /site/templates/canvas.php
