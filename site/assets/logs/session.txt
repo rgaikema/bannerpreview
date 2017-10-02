@@ -45,3 +45,7 @@
 2017-09-18 11:00:04	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
 2017-09-20 08:51:20	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
 2017-09-20 08:51:30	remco	http://localhost:8888/bannertool/login/login/?id=1020	Successful login for 'remco'
+2017-10-01 12:31:14	?	?	User 'remco' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2017-10-01 12:31:55	remco	http://localhost:8888/bannertool/login/login/?id=1064	Successful login for 'remco'
+2017-10-02 19:51:44	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2017-10-02 20:53:39	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
