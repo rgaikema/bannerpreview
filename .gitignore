@@ -3,6 +3,8 @@
 
 #Cache files
 site/assets/cache/*
+site/assets/files/*
+site/assets/logs/*
 
 #Session files
 site/assets/sessions/*

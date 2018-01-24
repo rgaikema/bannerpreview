@@ -62,3 +62,5 @@
 2017-09-18 08:52:15	guest	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Maintenance/Copy new version of source file to target file: /site/templates/client-klant-b-page.php => /site/assets/cache/FileCompiler/site/templates/client-klant-b-page.php
 2017-09-18 08:52:15	guest	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/	Maintenance/Copy new version of source file to target file: /site/templates/footer.inc => /site/assets/cache/FileCompiler/site/templates/footer.inc
 2017-09-18 08:52:23	remco	http://localhost:8888/bannertool/restricted/?login=1	Compiled file: /site/templates/client-klant-b-page.php
+2017-09-27 13:06:22	remco	http://localhost:8888/bannertool/klant-a/campagne-a/see-fase/336x280/	Compiled file: /site/templates/336x280.php
+2018-01-24 13:49:14	remco	http://localhost:8888/bannertool/login/module/?reset=2	Compiled file: /site/modules/BodyClass/BodyClass.module

@@ -23,7 +23,7 @@
 		  })(); 
 		</script>
 	</head>
-	<body>
+	<body class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
 		<header class="header clear">
 			<div class="container">
 			  	<div class="logo">
