@@ -369,3 +369,29 @@ button.replay:hover{
 .sets-list-item {
 	margin-bottom: 10px;
 }
+
+/*Canvas*/
+
+/*.marvel-device.canvas .screen {
+	overflow: auto;
+	overflow-y: scroll;
+}
+*/
+
+.screen {
+	width: 480px;
+	height: 780px;
+	border: 1px solid #000;
+	overflow: scroll;
+	border-radius: 3px;
+}
+.c_img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.panorama {
+	width: auto;
+	max-width: none;
+	height: 300px;
+}
