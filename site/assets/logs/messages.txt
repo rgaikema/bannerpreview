@@ -50,3 +50,37 @@
 2017-10-01 13:28:47	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "canvas_video" data in 1 row(s) from 1 page(s). [page-by-page]
 2017-10-01 13:29:07	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "canvas_type_check" data in 0 row(s) from 0 page(s). [page-by-page]
 >>>>>>> a91f474ef00dd3adec8583da8ae848740104ae2e
+2018-01-24 14:26:43	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "comments" data in 7 row(s) from 2 page(s). [page-by-page]
+2018-01-26 16:29:51	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 3 pages
+2018-01-26 16:30:50	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 1 pages
+2018-01-26 16:30:55	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 1 pages
+2018-01-30 15:28:03	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-01 12:57:45	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 7 pages
+2018-02-01 12:57:50	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 6 pages
+2018-02-01 12:58:08	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 3 pages
+2018-02-01 12:58:13	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-01 12:58:18	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 09:58:48	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 09:58:54	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 3 pages
+2018-02-05 09:59:02	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 5 pages
+2018-02-05 09:59:06	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 09:59:09	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 6 pages
+2018-02-05 09:59:13	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 6 pages
+2018-02-05 11:42:49	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 5 pages
+2018-02-05 11:42:54	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 5 pages
+2018-02-05 11:42:58	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 4 pages
+2018-02-05 11:43:04	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 7 pages
+2018-02-05 11:54:45	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 7 pages
+2018-02-05 11:54:49	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 6 pages
+2018-02-05 11:54:52	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 11:54:55	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 4 pages
+2018-02-05 11:54:59	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 14:36:34	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-05 14:36:52	remco	http://localhost:8888/bannertool/login/page/sort/	Updated sort for 2 pages
+2018-02-06 16:13:04	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_728x90" data in 9 row(s) from 1 page(s). [page-by-page]
+2018-02-06 16:13:04	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_300x600" data in 18 row(s) from 2 page(s). [page-by-page]
+2018-02-06 16:13:04	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_160x600" data in 9 row(s) from 1 page(s). [page-by-page]
+2018-02-06 16:13:04	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_120x600" data in 26 row(s) from 3 page(s). [page-by-page]
+2018-02-06 16:13:05	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_336x280" data in 17 row(s) from 2 page(s). [page-by-page]
+2018-02-06 16:13:05	remco	http://localhost:8888/bannertool/login/setup/field/save	Deleted field "banner_300x250" data in 8 row(s) from 1 page(s). [page-by-page]
+2018-02-06 16:18:00	remco	http://localhost:8888/bannertool/login/setup/template/removeFields	Deleted field "iab_repeater" data in 6 row(s) from 6 page(s). [page-by-page]

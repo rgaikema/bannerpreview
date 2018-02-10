@@ -65,3 +65,29 @@
 2017-10-02 19:51:44	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
 2017-10-02 20:53:39	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
 >>>>>>> a91f474ef00dd3adec8583da8ae848740104ae2e
+2018-01-24 17:04:48	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
+2018-01-24 17:15:27	klant-a	http://localhost:8888/bannertool/login/login/logout/	Logout for 'klant-a'
+2018-01-24 17:15:49	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
+2018-01-24 17:16:28	klant-a	http://localhost:8888/bannertool/login/login/logout/	Logout for 'klant-a'
+2018-01-24 17:16:41	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
+2018-01-24 17:17:07	klant-a	http://localhost:8888/bannertool/login/login/logout/	Logout for 'klant-a'
+2018-01-24 17:17:22	guest	http://localhost:8888/bannertool/login/login/	Error: Failed login for 'klant-a' - Invalid password
+2018-01-24 17:17:35	klant-a	http://localhost:8888/bannertool/login/login/	Successful login for 'klant-a'
+2018-01-26 15:45:24	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-01-26 15:45:32	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-01-29 11:46:33	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-01-29 11:46:46	new10	http://localhost:8888/bannertool/login/login/	Successful login for 'new10'
+2018-01-29 11:47:09	new10	http://localhost:8888/bannertool/login/login/logout/	Logout for 'new10'
+2018-01-29 11:47:15	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-01-29 13:12:01	remco	http://localhost:8888/bannertool/login/login/logout/	Logout for 'remco'
+2018-01-29 13:12:07	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-01 11:39:43	?	?	User 'remco' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2018-02-01 11:40:00	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-03 15:36:40	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-03 15:36:59	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-05 09:14:57	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-05 09:15:12	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-09 15:58:04	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-09 15:58:24	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-10 17:55:54	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-10 17:56:21	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'

@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width">
 		<title><?php echo $page->title; ?></title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
 		<!-- <link rel='stylesheet' type='text/css' href='<?=$config->urls->FieldtypeComments?>comments.css' /> -->
@@ -26,7 +27,7 @@
 		  })(); 
 		</script>
 	</head>
-	<body class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
+	<body id="main-body" class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
 		<header class="header clear">
 			<div class="container">
 			  	<div class="logo">
@@ -37,12 +38,20 @@
 
 		<section class="container page clearfix">
 			<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
-			<div class="breadcrumbs">
-				<?php
-					foreach($page->parents() as $parent) {
-					    echo "<a href='{$parent->url}'>{$parent->title}</a> » ";
-					} 
-				?>
-			</div>
+			<?php
+				echo "<ul class=\"breadcrumbs \">";
+
+				$parents = $page->parents;
+
+				foreach($parents as $parent) {
+				    $url = $parent->url;
+				    echo "<li class=\"breadcrumb-item\"><a href='$url'>{$parent->title}</a> » </li>\n";
+				}
+
+				// show current / "we are here" page as well, but not as link: (last element)
+				echo "<li class=\"breadcrumb-item last\">{$page->title}</li>\n";
+
+				echo "</ul>";
+			?>
 			<div class="wrapper">
 				<h1><?php echo $page->title; ?></h1>

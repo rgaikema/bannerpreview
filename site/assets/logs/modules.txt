@@ -55,3 +55,8 @@
 2017-09-30 18:17:55	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeOptions	Saved module 'FieldtypeOptions' config data
 2017-09-30 18:17:59	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeOptions&collapse_info=1	Saved module 'FieldtypeOptions' config data
 >>>>>>> a91f474ef00dd3adec8583da8ae848740104ae2e
+2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Uninstalled module 'InputfieldCommentsAdmin'
+2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Saved module info caches
+2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Uninstalled module 'FieldtypeComments'
+2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Saved module info caches
+2018-01-30 16:36:18	remco	http://localhost:8888/bannertool/login/module/	Deleted module 'Helloworld'

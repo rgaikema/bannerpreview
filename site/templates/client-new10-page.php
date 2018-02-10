@@ -29,6 +29,12 @@
 			echo '</div>';
 		}
 
+		$campaignDate = $campaign->campaign_date;
+
+		var_dump($campaignDate);
+
+		// echo $campaingDate->date('relative');
+
 		$fases = $campaign->children("sort=sort");
 		$items = (count($fases));
 

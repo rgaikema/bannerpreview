@@ -27,31 +27,8 @@
 		  })(); 
 		</script>
 	</head>
-	<body id="main-body" class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
-		<header class="header clear">
-			<div class="container">
-			  	<div class="logo">
-				  	<a href="/bannertool"><img src="<?php echo $config->urls->templates?>images/logo-storm.svg" alt="Storm Digital logo"></a>
-			  	</div>
-			</div>
-		</header>
+	<body class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
 
-		<section class="container page clearfix">
-			<?php //if($page->editable()) echo "<p><a href='$page->editURL'>Edit</a></p>"; ?>
-			<?php
-				echo "<ul class=\"breadcrumbs \">";
+		<section class="container page no-height-set no-padding clearfix">
 
-				$parents = $page->parents;
-
-				foreach($parents as $parent) {
-				    $url = $parent->url;
-				    echo "<li class=\"breadcrumb-item\"><a href='$url'>{$parent->title}</a> » </li>\n";
-				}
-
-				// show current / "we are here" page as well, but not as link: (last element)
-				echo "<li class=\"breadcrumb-item last\">{$page->title}</li>\n";
-
-				echo "</ul>";
-			?>
 			<div class="wrapper">
-				<h1><?php echo $page->title; ?></h1>

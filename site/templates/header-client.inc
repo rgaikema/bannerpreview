@@ -27,7 +27,7 @@
 		  })(); 
 		</script>
 	</head>
-	<body id="main-body" class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
+	<body class="<?php echo $modules->get('BodyClass')->bodyclass() ?>">
 		<header class="header clear">
 			<div class="container">
 			  	<div class="logo">
@@ -54,4 +54,3 @@
 				echo "</ul>";
 			?>
 			<div class="wrapper">
-				<h1><?php echo $page->title; ?></h1>

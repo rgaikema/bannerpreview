@@ -1,95 +1,139 @@
-<?php 
-	
-	include("./header.inc"); 
+		<?php 
+			
+			include("./header-set-page.inc"); 
 
-	$children = $page->children;
+			$children = $page->children;
 
-	foreach ($children as $child) {
+			$boards = $page->children("template=970x250|728x90");
+			$scrapers = $page->children("template=300x600|160x600|120x600");
+			$rectangles = $page->children("template=336x280|300x250");
 
-		$smallSkyscraper = $child->banner_120x600->url;
-		if (isset($smallSkyscraper)) {
-			echo '<iframe class="small-skyscraper" src="'. $smallSkyscraper . '"></iframe><br><br>';
-		}
+			// Get Boards
+			if ($boards) {
 
-		$rectangle = $child->banner_336x280->url;
-		if (isset($rectangle)) {
-			echo '<div class="iframe-holder"><iframe id="iframe-1" class="rectangle" src="'. $rectangle . '"></iframe>';
-			echo '<div class="button-holder"><button type="button" id="button-1" class="replay">replay<i class="fa fa-play-circle"></i></button></div></div>';
-		}
+				echo '<div class="row creatives boards">';
 
-		$smallRectangle = $child->banner_300x250->url;
-		if (isset($smallRectangle)) {
-			echo '<iframe class="small-rectangle" src="'. $smallRectangle . '"></iframe><br><br>';
-		}
-	}
+				foreach ($boards as $board) {
 
-	?>
+
+					if ($board->template == "970x250") {
+						echo '<div class="iframe-holder set-view billboard">';
+						echo '<iframe id="creative-" class="iframe billboard" src="'. $board->url. '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+					if ($board->template == '728x90') {
+						echo '<div class="iframe-holder set-view leaderboard">';
+						echo '<iframe id="creative-" class="iframe leaderboard" src="'. $board->url . '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+				}
+
+				echo '</div>';
+			}
+
+			// Get scrapers
+			if ($scrapers) {
+
+				echo '<div class="row creatives scrapers">';
+
+				foreach ($scrapers as $scraper) {
+
+					if ($scraper->template == "300x600") {
+						echo '<div class="iframe-holder set-view halfpage">';
+						echo '<iframe id="creative-" class="iframe halfpage" src="'. $scraper->url. '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+					if ($scraper->template == '160x600') {
+						echo '<div class="iframe-holder set-view wide-skyscraper">';
+						echo '<iframe id="creative-" class="iframe wide-skyscraper" src="'. $scraper->url . '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+					if ($scraper->template == '120x600') {
+						echo '<div class="iframe-holder set-view skyscraper">';
+						echo '<iframe id="creative-" class="iframe skyscraper" src="'. $scraper->url . '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+				}
+
+				echo '</div>';
+			}
+
+
+			// Get Rectangles
+			if ($rectangles) {
+
+				echo '<div class="row creatives rectangles">';
+
+				foreach ($rectangles as $rectangle) {
+
+					if ($rectangle->template == "336x280") {
+						echo '<div class="iframe-holder set-view rectangle">';
+						echo '<iframe id="creative-" class="iframe rectangle" src="'. $rectangle->url. '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+					if ($rectangle->template == '300x250') {
+						echo '<div class="iframe-holder set-view medium-rectangle">';
+						echo '<iframe id="creative-" class="iframe medium-rectangle" src="'. $rectangle->url . '"></iframe>';
+						echo '<script>$("iframe").load(function() {var extraHeight = 60; var totalHeight = extraHeight + this.contentWindow.document.body.offsetHeight; this.style.height = totalHeight + "px";});</script>';
+						echo '<div class="button-holder"><button type="button" id="button-" class="replay">replay<i class="fa fa-play-circle"></i></button></div>';
+						echo '</div>';
+					}
+
+				}
+
+				echo '</div>';
+			}
+			
+		?>
 
 		<!-- Reload banners -->
 		<script>
-			var iframe1 = $('#iframe-1');
 
-			$('#button-1').click(function() {
-				document.getElementById('iframe-1').src = document.getElementById('iframe-1').src;
-			});
+			// Set unique id numbers for iframes
+			var iframeList = document.getElementsByClassName("iframe");
+			for (var i = 0; i < iframeList.length; i++) {
+			   iframeList[i].setAttribute("id", "creative-" + i);
+			}
+
+			// Set unique id numbers for reload buttons
+			var btnList = document.getElementsByClassName("replay");
+			for (var i = 0; i < btnList.length; i++) {
+			   btnList[i].setAttribute("id", "button-" + i);
+			   // Reload the creative on click
+			   btnList[i].addEventListener("click", reloadCreative);
+			}
+
+			function reloadCreative(){
+				var btnIDfull = this.id;
+				var btnIDArray = btnIDfull.split('-');
+				var iframeIndex = btnIDArray[1];
+				var iframeIDfull = 'creative-' + iframeIndex;
+				document.getElementById(iframeIDfull).src = document.getElementById(iframeIDfull).src;
+			}
 
 		</script>
 
 
 	</div> <!-- end wrapper -->
 
-	<aside class="sidebar">
-		
-		<?php 
-
-			foreach($page->comments as $comment) {
-			    if($comment->status < 1) continue; // skip unapproved or spam comments
-			    $cite = htmlentities($comment->cite); // make sure output is entity encoded
-			    $text = htmlentities($comment->text);
-			    $date = date('m/d/y g:ia', $comment->created); // format the date
-
-			    //Check stormvogel names
-			    $stormvogels = $users->find("email$=stormdigital.nl");
-			    $stormvogelNames = [];
-
-				foreach ($stormvogels as $stormvogel) {
-
-					$stormvogelName = $stormvogel->name;
-					array_push($stormvogelNames, $stormvogelName);
-
-				}
-
-				//Output comments
-			    echo '<div class="CommentHeader">' . $date . '</div>';
-
-			    //Check if comment is places by Stormvogel
-				if (in_array($cite, $stormvogelNames)) {
-					echo '<div class="CommentText stormvogel"><p>' . $text . '</p></div>';
-				} else {
-					echo '<div class="CommentText"><p>' . $text . '</p></div>';
-				}
-
-			    echo '<div class="CommentFooter">' . $cite . '</div>';
-			}
-
-			//Commentform
-			echo $page->comments->renderForm(array(
-			    'headline' => '<h2>Laat een reactie achter:</h2>',
-			    'successMessage' => "<p class='success'>Bedankt, je reactie is geplaatst.</p>",
-    			'errorMessage' => "<p class='error'>Helaas, je reactie kon niet worden geplaatst. Check of je alle velden hebt ingevuld en probeer het nog een keer.</p>",
-    			'labels' => array(
-			        'cite' => 'Naam',
-			        'email' => 'Email',
-			        'text' => 'Reactie',
-			        'submit' => 'Plaats',
-			    ),
-			));
-
-		?>
-
-	</aside>
-
 	<?php
-		include("./footer.inc"); 
-
-?>
+		include("./footer-stripped.inc"); 
+	?>

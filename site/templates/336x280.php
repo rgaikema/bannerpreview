@@ -1,17 +1,10 @@
-
 <?php 
-	include("./header.inc"); 
+	include("./header-banners.inc"); 
 
-	echo '<iframe class="rectangle" src="'. $page->banner_336x280->url . '"></iframe><br><br>';
+	echo '<iframe class="rectangle" src="'. $page->banner_336x280->url . '"></iframe>';
 ?>
 
 <?php
 
-	// See all the uploaded files
-	// foreach ($page->banner_336x280 as $file) {
-	// 	echo "<a href='$file->url'>$file->name</a><br>";
-	// }
-
-	include("./footer.inc"); 
+	//include("./footer.inc"); 
 ?>
-	
