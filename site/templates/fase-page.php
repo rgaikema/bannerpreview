@@ -10,7 +10,13 @@
 	  'upscaling' => true,
 	  'cropping' => 'northheast'
 	);
-	$thumb = $faseImage->size(200, 134, $options);
+
+	if ($faseImage) {
+
+		$thumb = $faseImage->size(200, 134, $options);
+	} else {
+		$thumb = $config->urls->templates . 'images/default-image.jpg">';
+	}
 
 
 	if ($faseInfo || $faseImage) {
@@ -46,7 +52,8 @@
 	}
 
 
-	$sets = $page->children("sort=sort");
+	$sets = $page->children("template=iab-set-page,sort=sort");
+	$w_previews = $page->children("template=weborama_preview,sort=sort");
 
 
 	if (count($sets)) {
@@ -71,6 +78,47 @@
 
 		echo '<script>window.onload = function()  { var loadDiv = document.getElementById("load-div"); loadDiv.classList.remove("busy")  }</script>';
 		
+	}
+
+
+	if (count($w_previews)) {
+		echo '<div class="weborama-list">';
+		echo '<input class="input" id="webo-" type="radio" name="webo" checked>';
+  		echo '<label class="label" for="webo-">Rich-media</label>';
+
+		foreach ($w_previews as $w_preview) {
+
+			if (count($w_preview->weborama_image)) {
+
+				$orig_image = $w_preview->weborama_image;
+
+				echo '<section class="weborama-content" id="content-weborama">';
+				echo '<div class="weborama-content-holder">';
+				$thumb = $orig_image->size(600, 400, $options);
+
+				echo '<a class="weborama-link" href="' . $w_preview->weborama_url . '" target="_blank">';
+
+				$options = array(
+				  'quality' => 90,
+				  'upscaling' => true,
+				  'cropping' => 'north'
+				);
+
+				echo '<figure>';
+				echo '<img src="' . $thumb->url .'" alt="' . $orig_image->description . ' fase' . '">';
+				echo '<figcaption><h2>' . $orig_image->description . '</h2></figcaption>';
+				echo '</figure>';
+
+				echo '</a>';
+
+				echo '</div>';
+	  			echo '</section>';
+
+  			}
+		}
+
+		echo '</div>';
+
 	}
 
 	include("./footer.inc"); 

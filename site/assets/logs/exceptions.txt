@@ -4,3 +4,5 @@
 2017-10-02 21:47:23	remco	http://localhost:8888/bannertool/canvas/	Method Pagefile::count does not exist or is not callable in this context (in /wire/core/Wire.php line 519)
 2018-01-26 16:29:56	remco	http://localhost:8888/bannertool/login/page/add/?parent_id=1073	You don't have access to the template required to add pages here (in /wire/modules/Process/ProcessPageAdd/ProcessPageAdd.module line 362)
 2018-02-06 16:14:38	remco	http://localhost:8888/bannertool/login/setup/field/save	Sorry, repeater fields are not currently cloneable. (in /wire/modules/Fieldtype/FieldtypeRepeater/FieldtypeRepeater.module line 1388)
+2018-02-12 14:06:35	remco	http://localhost:8888/bannertool/klant-b/	Unknown Selector operator: '' -- was your selector value properly escaped?  (in /wire/core/Selectors.php line 396)
+2018-02-13 14:01:50	remco	http://localhost:8888/bannertool/klant-b/?selectedcategory=2017&sortby=-title	Field does not exist: category (in /wire/core/PageFinder.php line 993)

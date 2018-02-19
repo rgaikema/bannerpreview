@@ -85,6 +85,13 @@ body {
 	background: #f9f9f9;
 }
 
+hr {
+	background: #dedede;
+	height: 1px;
+	border: 0;
+	margin: 1em 0 2em;
+}
+
 a {
 	font-weight: bold;
 }
@@ -115,6 +122,10 @@ h1 {
 
 h2 {
 	font-size: 18px;
+}
+
+.title {
+	color: #a5d500;
 }
 
 p {
@@ -263,6 +274,19 @@ figure img {
 }
 
 
+/*Date selection*/
+.filters {
+	display: inline-block;
+	width: 100%;
+}
+
+.date-select-holder {
+	float: right;
+}
+
+
+
+
 /*Pages*/
 .info {
 	padding-bottom: 20px;
@@ -292,6 +316,7 @@ figure img {
 	display: inline-block;
 }
 
+
 .fase {
 	width: calc(100% / 3);
 }
@@ -310,7 +335,7 @@ figure img {
 	position: relative;
 	border-radius: 2px;
 	overflow: hidden;
-	border: 1px solid #f4f4f4;
+	border: 1px solid #eee;
 }
 
 .fase figure figcaption {
@@ -341,7 +366,8 @@ figure img {
 
 /*Fase Page*/
 
-.sets-list {
+.sets-list,
+.weborama-list {
 	position: relative;
 }
 
@@ -382,6 +408,41 @@ figure img {
 	position: relative;
 	z-index: 2;
 }
+
+.weborama-list {
+	padding-top: 40px;
+}
+
+.weborama-content-holder{
+	width: 100%;
+	max-width: 750px;
+	height: 0;
+	padding-top: 47%;
+	position: relative;
+	margin: 0 auto;
+	background: url(../images/mbp.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: contain;
+}
+
+.weborama-content {
+	text-align: center;
+	padding: 20px 0 60px;
+  	border-top: 1px solid #ddd;
+}
+
+.weborama-link {
+	display: inline-block;
+	width: 100%;
+	max-width: 640px;
+	position: absolute;
+	top: 34px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 /*.iframe-holder.set-view:before {
 	content: url(../images/three-dots.svg);
 	position: absolute;

@@ -60,3 +60,17 @@
 2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Uninstalled module 'FieldtypeComments'
 2018-01-24 15:36:57	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeComments	Saved module info caches
 2018-01-30 16:36:18	remco	http://localhost:8888/bannertool/login/module/	Deleted module 'Helloworld'
+2018-02-11 10:34:26	remco	http://localhost:8888/bannertool/login/module/?reset=1	Saved module info caches
+2018-02-11 10:34:34	remco	http://localhost:8888/bannertool/login/module/?reset=1	Saved module info caches
+2018-02-11 10:36:27	remco	http://localhost:8888/bannertool/login/module/edit?name=AdminThemeDefault&collapse_info=1	Saved module 'ProcessProfile' config data
+2018-02-11 10:36:34	remco	http://localhost:8888/bannertool/login/module/edit?name=AdminThemeDefault&collapse_info=1	Saved module 'AdminThemeDefault' config data
+2018-02-11 10:36:39	remco	http://localhost:8888/bannertool/login/module/edit?name=AdminThemeDefault&collapse_info=1	Saved module 'AdminThemeDefault' config data
+2018-02-11 10:41:17	remco	http://localhost:8888/bannertool/login/module/?reset=1	Saved module info caches
+2018-02-11 10:41:24	remco	http://localhost:8888/bannertool/login/module/?reset=1	Saved module info caches
+2018-02-11 10:42:43	remco	http://localhost:8888/bannertool/login/module/?reset=1	Saved module info caches
+2018-02-13 14:08:01	remco	http://localhost:8888/bannertool/login/module/download/	Saved module info caches
+2018-02-13 14:08:02	remco	http://localhost:8888/bannertool/login/module/download/	Saved module info caches
+2018-02-13 14:08:04	remco	http://localhost:8888/bannertool/login/module/	Installed module 'FieldtypeFields'
+2018-02-13 14:08:04	remco	http://localhost:8888/bannertool/login/module/	Saved module info caches
+2018-02-13 14:13:31	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeFields	Uninstalled module 'FieldtypeFields'
+2018-02-13 14:13:32	remco	http://localhost:8888/bannertool/login/module/edit?name=FieldtypeFields	Saved module info caches

@@ -31,14 +31,14 @@
 				);
 
 				if ($org_image){
+
 					$thumb = $org_image->size(300, 250, $options);
 
 					echo '<figure>';
 					echo '<img src="' . $thumb->url .'" alt="' . $org_image->description . ' | ' . $fase->title . ' fase' . '">';
 					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
 					echo '</figure>';
-				}
-				else {
+				} else {
 					echo '<figure>';
 					echo '<img src="' . $config->urls->templates . 'images/default-image.jpg' .'" alt="' . 'default image | ' . $fase->title . ' fase' . '">';
 					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
@@ -68,8 +68,9 @@
 				);
 
 				if ($org_image){
-					$thumb = $org_image->size(300, 250, $options);
 
+					$thumb = $org_image->size(300, 250, $options);
+					
 					echo '<figure>';
 					echo '<img src="' . $thumb->url .'" alt="' . $org_image->description . ' | ' . $fase->title . ' fase' . '">';
 					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';

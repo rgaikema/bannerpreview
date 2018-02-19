@@ -91,3 +91,12 @@
 2018-02-09 15:58:24	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
 2018-02-10 17:55:54	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
 2018-02-10 17:56:21	remco	http://localhost:8888/bannertool/login/login/	Successful login for 'remco'
+2018-02-16 11:23:06	guest	http://localhost:8888/bannertool/login/login/	Error: Failed login for 'new10' - Invalid password
+2018-02-16 11:23:14	guest	http://localhost:8888/bannertool/login/login/	Error: Failed login for 'new10' - Invalid password
+2018-02-16 11:24:14	new10	http://localhost:8888/bannertool/login/login/	Successful login for 'new10'
+2018-02-19 09:30:15	?	?	User 'remco' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-19 09:30:20	remco	http://localhost:8888/bannertool/login/login/edit/?id=1066	Successful login for 'remco'
+2018-02-19 09:48:10	?	?	User 'new10' - Session timed out (session older than 86400 seconds) (IP: 0.0.0.0)
+2018-02-19 09:49:32	guest	http://localhost:8888/bannertool/login/login/	Error: Failed login for 'new10' - Invalid password
+2018-02-19 09:49:36	guest	http://localhost:8888/bannertool/login/login/	Error: Failed login for 'new10' - Invalid password
+2018-02-19 09:49:47	new10	http://localhost:8888/bannertool/login/login/	Successful login for 'new10'

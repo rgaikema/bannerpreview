@@ -11,6 +11,7 @@
 	$fases = $page->children("sort=sort");
 	$items = (count($fases));
 
+
 	if ($fases) {
 		echo '<div class="row fases">';
 
@@ -28,12 +29,18 @@
 				  'upscaling' => true,
 				  'cropping' => 'northheast'
 				);
-				$thumb = $org_image->size(300, 250, $options);
-				
 
 				if ($org_image){
+					$thumb = $org_image->size(300, 250, $options);
+
 					echo '<figure>';
 					echo '<img src="' . $thumb->url .'" alt="' . $org_image->description . ' | ' . $fase->title . ' fase' . '">';
+					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
+					echo '</figure>';
+				}
+				else {
+					echo '<figure>';
+					echo '<img src="' . $config->urls->templates . 'images/default-image.jpg' .'" alt="' . 'default image | ' . $fase->title . ' fase' . '">';
 					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
 					echo '</figure>';
 				}
@@ -59,14 +66,21 @@
 				  'upscaling' => true,
 				  'cropping' => 'northheast'
 				);
-				$thumb = $org_image->size(300, 250, $options);
 
 				if ($org_image){
+					$thumb = $org_image->size(300, 250, $options);
+
 					echo '<figure>';
 					echo '<img src="' . $thumb->url .'" alt="' . $org_image->description . ' | ' . $fase->title . ' fase' . '">';
 					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
 					echo '</figure>';
+				} else {
+					echo '<figure>';
+					echo '<img src="' . $config->urls->templates . 'images/default-image.jpg' .'" alt="' . 'default image | ' . $fase->title . ' fase' . '">';
+					echo '<figcaption><h2>' . $fase->title . '</h2></figcaption>';
+					echo '</figure>';
 				}
+
 				echo '</a>';
 				echo '</div>';
 			}
